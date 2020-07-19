@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Git",
+    "commands": [
+      "apt-get install git -y"
+    ]
+  },
+  {
+    "name": "Java",
+    "commands": [
+      "sudo apt-get install default-jdk -y",
+      "sudo apt install openjdk-11-jdk-headless -y "
+    ]
+  },
+  {
+    "name": "Mysql",
+    "commands": [
+      ""
+    ]
+  },
+  {
+    "name": "docker",
+    "commands": [
+      "apt install docker.io -y"
+    ]
+  },
+  {
+    "name": "Nginx",
+    "commands": [
+      "apt install nginx -y"
+    ]
+  },
+  {
+    "name": "Mongodb",
+    "commands": [
+      "apt install mongodb -y"
+    ]
+  },
+  {
+    "name": "OpenVpn",
+    "commands": [
+      ""
+    ]
+  },
+  {
+    "name": "Node Js",
+    "commands": [
+      "wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash",
+      "export NVM_DIR='$HOME/.nvm'",
+      "[ -s '$NVM_DIR/nvm.sh' ] && . '$NVM_DIR/nvm.sh'",
+      "nvm install node"
+    ]
+  },
+  {
+    "name": "Maven",
+    "commands": [
+      "apt install maven -y"
+    ]
+  },
+  {
+    "name": "TeamViewr",
+    "commands": [
+      "wget https://download.teamviewer.com/download/linux/teamviewer-host_amd64.deb",
+      "sudo apt install ./teamviewer-host_amd64.deb -y",
+      "rm -rf teamviewer-host_amd64.deb"
+    ]
+  },
+  {
+    "name": "Chrome",
+    "commands": [
+      "wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb",
+      "sudo apt install ./google-chrome-stable_current_amd64.deb -y",
+      "rm -rf google-chrome-stable_current_amd64.deb"
+    ]
+  }
+]
